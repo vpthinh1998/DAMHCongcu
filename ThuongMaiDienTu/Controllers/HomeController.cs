@@ -4,26 +4,20 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace DAMHCC.Controllers
+namespace ThuongMaiDienTu.Controllers
 {
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
-            return View();
+            ViewBag.Title = "Giá hết hồn";
+            return View(); 
         }
 
-        public ActionResult About()
+
+
+        public ActionResult Category(int id)
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }

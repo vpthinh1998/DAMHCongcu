@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace DAMHCC
+namespace ThuongMaiDienTu
 {
     public class FilterConfig
     {
