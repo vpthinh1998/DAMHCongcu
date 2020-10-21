@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="501261764d0d4011a0320c1410aec41c" Name="Diagram1">
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.CATEGORY_PRODUCT" Width="1.5" PointX="3.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.CUSTOMER" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.GIFTCODE" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.INFO" Width="1.5" PointX="6" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.ORDER" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.ORDER_HISTORY" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.PAYMENT_METHOD" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.PAYMENT_STATUS" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.PRODUCT" Width="1.5" PointX="6" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.PRODUCT_IMG" Width="1.5" PointX="8.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.PRODUCT_INFO" Width="1.5" PointX="8.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.PRODUCT_ORDER" Width="1.5" PointX="8.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.ROLE" Width="1.5" PointX="1.5" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="THUONGMAIDIENTUModel.USER" Width="1.5" PointX="0.75" PointY="16.375" IsExpanded="true" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT__IdCateg__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT__IdCateg__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER__IdCustome__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER__IdCustome__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER__IdCode__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER__IdCode__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT_I__IdInf__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT_I__IdInf__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER__IdPayment__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER__IdPayment__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER__IdStatus__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER__IdStatus__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER__IdUser__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER__IdUser__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER_HIS__IdOrd__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER_HIS__IdOrd__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT_O__IdOrd__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT_O__IdOrd__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER_HIS__IdSta__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER_HIS__IdSta__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER_HIS__IdUse__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__ORDER_HIS__IdUse__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT__IdUser__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT__IdUser__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT_I__IdPro__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT_I__IdPro__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT_I__IdPro__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT_O__IdPro__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__PRODUCT_O__IdPro__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__USER__IdRole__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="THUONGMAIDIENTUModel.FK__USER__IdRole__66603565" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
